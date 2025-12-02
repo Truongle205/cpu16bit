@@ -3,6 +3,7 @@
  * Chức năng: Thực hiện các phép toán và logic dựa trên tín hiệu ALUOp.
  * Bao gồm các phép toán cho ALUO, ALU1, ALU2, và các lệnh Immediate.
  */
+ `timescale 1ns / 1ps
 module alu(
     input  [15:0] A,          // Toán hạng A (ví dụ: từ $rs)
     input  [15:0] B,          // Toán hạng B (ví dụ: từ $rt hoặc immediate)

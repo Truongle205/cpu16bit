@@ -4,6 +4,7 @@
  * Nhận địa chỉ từ PC và xuất ra lệnh 16-bit.
  * Bộ nhớ được khởi tạo từ file "program.hex".
  */
+ `timescale 1ns / 1ps
 module instruction_memory(
     input [15:0] Address,      // Địa chỉ lệnh (từ PC)
     output [15:0] Instruction  // Lệnh 16-bit tại địa chỉ đó
@@ -17,7 +18,7 @@ module instruction_memory(
 
     // Khởi tạo bộ nhớ từ file .hex khi mô phỏng bắt đầu
     initial begin
-        $readmemh("program.hex", mem);
+        $readmemh("C:/Users/BUI THANH QUI/Documents/DATKLL/Project/Project.srcs/sim_1/imports/DATKLL/program.hex", mem);
     end
     
     // Logic đọc (Tổ hợp - Combinational)

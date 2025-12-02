@@ -3,6 +3,7 @@
  * Chức năng: Lưu trữ 8 thanh ghi đa dụng ($0-$7).
  * Dùng mảng [0:7] chuẩn.
  */
+ `timescale 1ns / 1ps
 module register_file(
     input clk,
     input rst,

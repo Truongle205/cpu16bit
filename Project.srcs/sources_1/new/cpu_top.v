@@ -3,6 +3,7 @@
  * Chức năng: Kết nối Control Unit và Datapath.
  * Nhận clock và reset.
  */
+ `timescale 1ns / 1ps
 module cpu_top(
     input clk,
     input rst

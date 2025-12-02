@@ -4,6 +4,7 @@
  * Giải mã opcode và funct để tạo ra TẤT CẢ tín hiệu điều khiển
  * trong CÙNG MỘT chu kỳ clock.
  */
+`timescale 1ns / 1ps
 module control_unit(
     // --- Inputs ---
     input [3:0] opcode,

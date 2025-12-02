@@ -4,6 +4,7 @@
  * ALU, Register File, Memories) lại với nhau.
  * Được điều khiển bởi các tín hiệu từ Control Unit.
  */
+ `timescale 1ns / 1ps
 module datapath(
     input clk,
     input rst,

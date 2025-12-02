@@ -5,6 +5,7 @@
  * Địa chỉ là địa chỉ byte 16-bit, nhưng ta dùng [15:1]
  * để truy cập các từ 16-bit (half-word).
  */
+ `timescale 1ns / 1ps
 module data_memory(
     input clk,
     input [15:0] Address,      // Địa chỉ (từ ALU)

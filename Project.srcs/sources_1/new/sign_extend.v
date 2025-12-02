@@ -4,6 +4,7 @@
  * và mở rộng dấu thành 16-bit.
  * Dùng cho các lệnh I-type: addi, slti, bneq, bgtz, lh, sh.
  */
+ `timescale 1ns / 1ps
 module sign_extend(
     input [5:0] Imm_6bit,      // Giá trị immediate 6-bit từ lệnh
     output [15:0] Imm_16bit    // Giá trị 16-bit đã được mở rộng dấu
